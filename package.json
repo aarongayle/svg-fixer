@@ -1,0 +1,24 @@
+{
+  "name": "svg-fixer",
+  "version": "1.0.0",
+  "description": "A tool to convert class-based styles in SVG files to inline styles and optionally convert SVGs to React Native SVG format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "svg",
+    "inline",
+    "styles",
+    "react-native",
+    "optimizer"
+  ],
+  "author": "Aaron Gayle",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^19.0.0"
+  },
+  "bin": {
+    "svg-fixer": "./index.js"
+  }
+}
